@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: "monotype";
+    margin: 0px;
+}
+
+#encabezado{
+    background-color: red;
+}
+
+#encabezado{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 0px
+}
+
+nav ul{
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    text-align: right;
+    margin: 0%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 20px;
+    padding: 10px 12px;
+    display: inline;
+    color: black;
+}
+
+.contenedor{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#nosotros{
+    float: center;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+#servicios h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px
+}
+
