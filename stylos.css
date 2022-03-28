@@ -4,6 +4,7 @@ body{
     font-size: 20px;
     font-family: "monotype";
     margin: 0px;
+   
 }
 
 #encabezado{
@@ -37,22 +38,65 @@ nav ul li a{
     color: black;
 }
 
-.contenedor{
-    width: 60%;
+#contenedor{
+    width: 800px;
     margin: auto;
-    overflow: hidden;
 }
 
-#nosotros{
-    float: center;
-    width: 60%;
-    box-sizing: border-box;
-    padding: 0px 30px;
+.nosotros{
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+
 }
 
-#servicios h3{
+#destacado{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px
+}
+
+#contenedor1 h3{
     font-size: 30px;
     text-align: center;
     padding: 20px
 }
+
+#contenedor2 {
+    display: grid;
+    padding: 20px;   
+}
+
+#contenedor2 div img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+
+footer{
+    display: flex;
+    text-align: center;
+
+}
+
+.social {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.social li{
+    display:inline-block;
+}
+
+
+
 
